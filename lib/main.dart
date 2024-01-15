@@ -63,6 +63,7 @@ class _MyAppState extends State<MyApp> {
                 Text((ave >= 75)? "PASSED" : "FAILED", style: TextStyle(color: (ave >= 75)? Colors.green : Colors.red),),
               ],
             ),
+
             SizedBox(height: 20,),
             ElevatedButton(onPressed: (){
               double prelim = double.parse(_prelim.text) * .30;
