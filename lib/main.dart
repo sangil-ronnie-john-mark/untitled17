@@ -59,7 +59,6 @@ class _MyAppState extends State<MyApp> {
                 SizedBox(width: 20,),
               Text("${ave}"),
                 SizedBox(width: 20,),
-
                 Text((ave >= 75)? "PASSED" : "FAILED", style: TextStyle(color: (ave >= 75)? Colors.green : Colors.red),),
               ],
             ),
